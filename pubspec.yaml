@@ -1,0 +1,159 @@
+# name: jeya_engineering
+# description: A new Flutter project.
+
+# # Prevent accidental publishing to pub.dev.
+# publish_to: "none"
+
+# version: 1.0.0+1
+
+# environment:
+#   sdk: ">=2.16.2 <3.0.0"
+#   flutter: "^2.10.5"
+
+# dependencies:
+#   cloud_firestore: ^3.1.17
+#   cloud_functions: ^3.3.3
+#   #  cron: ^0.5.0
+#   expansion_tile_card: ^2.0.0
+#   firebase_auth: ^3.3.19
+#   firebase_core: ^1.17.0
+#   firebase_messaging: ^13.1.0
+#   flutter:
+#     sdk: flutter
+#   flutter_launcher_icons: ^0.13.1
+#   flutter_local_notifications: ^12.0.3
+#   flutter_localizations:
+#     sdk: flutter
+#   get: ^4.6.5
+#   intl: ^0.17.0
+#   mailer: ^5.2.0
+#   open_filex: ^4.3.1
+#   path_provider: ^2.0.11
+#   pluto_grid: ^7.0.2
+#   searchfield: ^0.6.6
+#   states_rebuilder: ^4.4.0
+#   syncfusion_flutter_xlsio: ^20.2.40-beta
+#   # test_api: ^0.6.0
+#   universal_html: ^2.0.8
+#   whatsapp_share2: ^2.0.2
+#   workmanager: ^0.5.1
+
+# flutter_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   remove_alpha_ios: true
+#   image_path: "assets/jeyalogo.jpeg"
+#   min_sdk_android: 21
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+
+#   flutter_lints: ^1.0.0
+
+# dependency_overrides:
+#   firebase_core_platform_interface: 4.5.1
+#   intl: ^0.18.0
+#   test_api: ^0.5.2
+
+# flutter:
+#   uses-material-design: true
+
+#   # Enable generation of localized Strings from arb files.
+#   generate: true
+
+#   assets:
+#     # Add assets from the images directory to the application.
+#     - assets/images/
+#     - assets/
+
+name: jeya_engineering
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <=3.2.1"
+  # flutter: "^2.10.5"
+
+dependencies:
+  cloud_firestore: ^4.8.0
+  cloud_functions: ^4.3.2
+  expansion_tile_card: ^3.0.0
+  firebase_auth: ^4.6.2
+  firebase_core: ^2.13.1
+  firebase_messaging: ^14.6.2
+  flutter_launcher_icons: ^0.13.1
+  flutter_local_notifications: ^14.1.1
+  flutter_localization: ^0.1.11
+  get: ^4.6.5
+  intl: ^0.18.1
+  mailer: ^6.0.1
+  open_filex: ^4.3.2
+  path_provider: ^2.0.15
+  pluto_grid: ^7.0.2
+  searchfield: ^0.8.3
+  states_rebuilder: ^4.4.0
+  syncfusion_flutter_xlsio: ^21.2.8
+  universal_html: ^2.2.3
+  whatsapp_share2: ^2.0.0
+  workmanager: ^0.5.1
+  # cloud_firestore: ^3.1.17
+  # cloud_functions: ^3.3.3
+  # #  cron: ^0.5.0
+  # expansion_tile_card: ^2.0.0
+  # firebase_auth: ^3.3.19
+  # firebase_core: ^1.17.0
+  # firebase_messaging: ^13.1.0
+  # flutter:
+  #   sdk: flutter
+  # flutter_launcher_icons: ^0.13.1
+  # flutter_local_notifications: ^12.0.3
+  # flutter_localizations:
+  #   sdk: flutter
+  # get: ^4.6.5
+  # # intl: ^0.16.0
+  # mailer: ^5.2.0
+  # open_filex: ^4.3.1
+  # path_provider: ^2.0.11
+  # pluto_grid: ^7.0.0
+  # searchfield: ^0.6.6
+  # states_rebuilder: ^4.4.0
+  # syncfusion_flutter_xlsio: ^20.2.40-beta
+  # test_api: ^0.5.2
+  # universal_html: ^2.0.8
+  # whatsapp_share2: ^2.0.2
+  # workmanager: ^0.5.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/jeyalogo.jpeg"
+  min_sdk_android: 21
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+dependency_overrides:
+  # firebase_core_platform_interface: 4.5.1
+  # intl: ^0.18.0
+  test_api: ^0.5.2
+  matcher: ^0.12.16 
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/
